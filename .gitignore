@@ -1,0 +1,16 @@
+# virtual environment
+venv/
+
+# python cache
+__pycache__/
+*.pyc
+
+# jupyter
+.ipynb_checkpoints/
+
+# data files
+data/raw/
+data/cleaned/
+
+# system
+.DS_Store
