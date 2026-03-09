@@ -1,4 +1,4 @@
-# Retail ETL Project
+# Retail ETL Project GE2004
 
 This project performs data cleaning and exploratory analysis on the Online Retail II dataset.
 
