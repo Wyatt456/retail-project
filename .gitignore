@@ -8,7 +8,7 @@ __pycache__/
 # jupyter
 
 # data files
-data/raw/
+data/
 
 # system
 .DS_Store
