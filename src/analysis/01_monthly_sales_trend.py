@@ -10,9 +10,8 @@ def main():
     df["YearMonth"] = df["InvoiceDate"].dt.to_period("M").astype(str)
 
     monthly_sales = (
-        df.groupby("YearMonth")["TotalPrice"]
+        df.groupby("YearMonth", as_index=False)["TotalPrice"] #as_index=False表示在分组后不将YearMonth设置为索引，而是保留为普通列
         .sum()
-        .reset_index()
     )
 
     plt.figure()

@@ -1,0 +1,4 @@
+test,question,statistic_name,statistic,p_value,significant_at_0_05,interpretation
+Pearson Correlation,Is there a correlation between quantity and revenue?,correlation_coefficient,0.8265895299407233,0.0,True,There is a statistically significant correlation between quantity and revenue.
+ANOVA,Does average order value differ across countries?,F_statistic,156.81214387902116,2.9280502953720887e-133,True,"There is a statistically significant difference in average order value across the tested countries: United Kingdom, EIRE, Netherlands, Germany, France."
+Independent Sample t-test,Do frequent customers generate more revenue than infrequent customers?,t_statistic,12.42313649922955,1.6260244442101943e-34,True,Frequent customers generate statistically significantly different revenue from infrequent customers.
